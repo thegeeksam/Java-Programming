@@ -1,4 +1,4 @@
-```markdown
+
 # 🧠 Java Programming Repository
 
 Welcome to the **Java-Programming** repository! 🚀  
