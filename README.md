@@ -83,6 +83,4 @@ Feel free to use, adapt, and share! 📄✨
 Made with ☕ and 💡 by a Java enthusiast.
 ```
 
----
-
 
