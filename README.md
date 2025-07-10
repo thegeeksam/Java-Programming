@@ -75,7 +75,7 @@ Passionate about teaching, learning, and clean Java code 🧼💙
 
 ## 📖 License
 
-This project is licensed under the MIT License.  
+This project is licensed under the GPL-3.0 license.  
 Feel free to use, adapt, and share! 📄✨
 
 ---
