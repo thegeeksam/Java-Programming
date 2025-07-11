@@ -15,7 +15,7 @@ public class A_Array {
         // Declaration of Array
         // Syntax: dataType[] arrayName; or dataType arrayName[];
         // Preferred style is dataType[] arrayName;
-        int[] numbers;         // Preferred style
+        int[] numbers;        // Preferred style
         String fruits[];      // Also valid
 
         // Allocation

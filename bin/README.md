@@ -1,2 +1,2 @@
-# OOPs-Using-Java
-"R19CS203 - OOPs Using JAVA" Course Example programs
+# Java Programming
+"U23CS491-Java Programming" Course Example programs

@@ -23,7 +23,7 @@ public class B_Single {
     }
     
     // find the length of an array
-    System.out.println("\nLength of array: "+strArray.length);
+    System.out.println("\nLength of array: " + strArray.length);
     
   }
 }
