@@ -23,8 +23,8 @@ class BaseClass {
 		System.out.println("Constructor of Base Class");
 	}
 	public void methodA() { 
-	//Base class method 	
-	System.out.println("methodA of Base Class"); 
+		//Base class method 	
+		System.out.println("methodA of Base Class"); 
 	} 
 } 
 
@@ -48,7 +48,8 @@ public class C_OverRiding {
 	public static void main (String args []) { 
 		BaseClass obj1 = new BaseClass(); 	
 		obj1.methodA(); 
-		DerivedClass obj2 = new DerivedClass(); 
+		System.out.println("Hello CSE B");
+		BaseClass obj2 = new DerivedClass(); 
 		obj2.methodA(); 
 	} 
 }

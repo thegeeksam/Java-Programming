@@ -16,15 +16,13 @@ class StaticMethodPoly {
 	// This is an example of static polymorphism (compile-time polymorphism)
 	// Method sum with two parameters
 	// This method calculates the sum of two integers
-	void sum(int x, int y) 
-	{ 
+	void sum(int x, int y) 	{ 
 		int s = x + y; 
 		System.out.println("Sum of two numbers: " +s); 
 	} 
 	// Method sum with three parameters
 	// This method calculates the sum of three integers
-	void sum(int x, int y, int z) 
-	{ 
+	void sum(int x, int y, int z) 	{ 
 		int s = x + y + z; 
 		System.out.println("Sum of three numbers: " +s); 
 	} 

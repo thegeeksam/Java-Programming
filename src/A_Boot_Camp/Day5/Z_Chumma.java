@@ -3,7 +3,7 @@
  * * File created for experimenting with polymorphism.
  * * Ignore this file 
 
- * @package A_Boot_Camp.Day4
+ * @package A_Boot_Camp.Day5
  * @author Dr. S. Sampath Kumar
  * @since 10-07-2025
  * @version 1.0
@@ -25,7 +25,7 @@ class Circle extends Shapes {
     System.out.println("Circle is: 3.14 * radius * radius ");
   }
 }
-public class Chumma {
+public class Z_Chumma {
   public static void main(String[] args) {
     Shapes myShape = new Shapes();  // Create a Shapes object
     Shapes myTriangle = new Triangle();  // Create a Triangle object
