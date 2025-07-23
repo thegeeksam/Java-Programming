@@ -1,11 +1,11 @@
 /**
  * * This file is part of the Java Programming Lecture project.
  * *
- * * It demonstrates the concept of StackOverflowError in Java.
- * * A StackOverflowError occurs when a program recurses too deeply
- * * and exhausts the stack space allocated for the thread.
- * * In this example, the `recursiveMethod` calls itself indefinitely,
- * * leading to a StackOverflowError.
+ * * It demonstrates the concept of OutOfMemoryError in Java.
+ * * An OutOfMemoryError occurs when the Java Virtual Machine (JVM)
+ * * cannot allocate an object because it is out of memory.
+ * * In this example, the program continuously adds objects to a list
+ * * until the heap memory is exhausted, leading to an OutOfMemoryError.
  * *
  * @package I_Unit
  * @author Dr. S. Sampath Kumar
