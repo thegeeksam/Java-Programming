@@ -1,4 +1,4 @@
-package WrapperClass;
+package I_Unit.WrapperClass;
 //Autoboxing example of int to Integer and char to Char
 
 public class AutoboxingEg {

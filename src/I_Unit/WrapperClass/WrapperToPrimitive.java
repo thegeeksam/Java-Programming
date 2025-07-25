@@ -1,4 +1,4 @@
-package WrapperClass;
+package I_Unit.WrapperClass;
 
 public class WrapperToPrimitive {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package WrapperClass;
+package I_Unit.WrapperClass;
 
 public class WrapperObject {
     public static void main(String xyz[]) {

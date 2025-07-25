@@ -1,4 +1,4 @@
-package WrapperClass;
+package I_Unit.WrapperClass;
 
 class SpeedWrapperClass {
     private int speed;
