@@ -1,6 +1,6 @@
 /**
  * * This file is part of the Java Programming Lecture project.
- * *
+ * * This is a testing file ignore this file.
  * *
  * @package I_Unit
  * @author Dr. S. Sampath Kumar

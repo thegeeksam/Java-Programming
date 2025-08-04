@@ -31,10 +31,10 @@ class SpeedWrapperClass {
         this.speed = speed;
     }
 
-    // @Override
-    // public String toString() {
-    // return Integer.toString(i);
-    // }
+    @Override
+    public String toString() {
+    return "SpeedWrapperClass{speed=" + speed + "}";
+    }
 }
 
 // Testing the custom wrapper class
