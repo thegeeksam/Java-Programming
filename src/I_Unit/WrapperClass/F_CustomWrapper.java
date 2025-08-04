@@ -38,7 +38,7 @@ class SpeedWrapperClass {
 }
 
 // Testing the custom wrapper class
-public class E_CustomWrapper {
+public class F_CustomWrapper {
     public static void main(String[] args) {
         SpeedWrapperClass speedValue = new SpeedWrapperClass(100);
         System.out.println(speedValue);
