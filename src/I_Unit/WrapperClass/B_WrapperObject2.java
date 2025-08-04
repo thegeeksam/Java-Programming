@@ -1,6 +1,15 @@
+/**
+ * * This file is part of the Java Programming Lecture project.
+ * *
+ * *
+ * @package I_Unit
+ * @author Dr. S. Sampath Kumar
+ * @since 03-08-2025
+ * @version 1.0
+ */
 package I_Unit.WrapperClass;
 
-public class WrapperObject2 {
+public class B_WrapperObject2 {
     public static void main(String[] args) {
         // Creating the object using the wrapper class
         // without passing the value to the constructor
