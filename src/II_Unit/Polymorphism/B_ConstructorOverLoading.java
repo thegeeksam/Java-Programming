@@ -1,18 +1,18 @@
 /**
- * * This file is part of the Boot Camp project.
+ * * This file is part of the Java Programming Lecture project.
  * * This file demonstrates constructor overloading, a form of static polymorphism.
  * * Constructor overloading allows multiple constructors in the same
  * * class to have the same name with different parameters.
  * * This is a common practice in Java to provide flexibility in object creation.
  * * The first constructor is a default constructor with no parameters,
  * * and the second constructor is a parameterized constructor that takes two arguments.
-
- * @package A_Boot_Camp.Day5
+ * *
+ * @package II_Unit.Polymorphism
  * @author Dr. S. Sampath Kumar
- * @since 10-07-2025
+ * @since 03-08-2025
  * @version 1.0
  */
-package A_Boot_Camp.Day5;
+package II_Unit.Polymorphism;
 
 class StaticPoly { 
 	//instance variables of the class  

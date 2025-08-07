@@ -1,15 +1,15 @@
 /**
- * * This file is part of the Boot Camp project.
+ * * This file is part of the Java Programming Lecture project.
  * * This file demonstrates method overloading, a form of static polymorphism.
  * * Method overloading allows multiple methods in the same 
  * * class to have the same name with different parameters.
 
- * @package A_Boot_Camp.Day5
+ * @package II_Unit.Polymorphism
  * @author Dr. S. Sampath Kumar
- * @since 10-07-2025
+ * @since 03-08-2025
  * @version 1.0
  */
-package A_Boot_Camp.Day5;
+package II_Unit.Polymorphism;
 
 class StaticMethodPoly { 
 	// Method overloading: same method name with different parameters

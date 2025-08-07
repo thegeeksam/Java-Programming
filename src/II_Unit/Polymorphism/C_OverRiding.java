@@ -1,5 +1,5 @@
 /**
- * * This file is part of the Boot Camp project.
+ * * This file is part of the Java Programming Lecture project.
  * * This file demonstrates method overriding, a form of dynamic polymorphism.
  * * Method overriding allows a subclass to provide a specific implementation
  * * of a method that is already defined in its superclass (parent class).
@@ -10,12 +10,12 @@
  * * the derived class is executed, demonstrating polymorphism.
  * * This is a common practice in Java to achieve runtime polymorphism.
 
- * @package A_Boot_Camp.Day5
+ * @package II_Unit.Polymorphism
  * @author Dr. S. Sampath Kumar
- * @since 10-07-2025
+ * @since 03-08-2025
  * @version 1.0
  */
-package A_Boot_Camp.Day5;
+package II_Unit.Polymorphism;
 
 class BaseClass { 
 	// Constructor of Base Class
