@@ -30,7 +30,6 @@
 package II_Unit.Asso_Aggre_Comp;
 
 class Teacher {
-
     String name;
 
     void teach() {
