@@ -17,7 +17,7 @@ package II_Unit.This_Super;
 class Parent1 {
 
     int a = 50;
-    String s = "Hello! II CSE C!";
+    String s = "Hello! II CSE B!";
 }
 
 // child class extending parent class
