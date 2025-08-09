@@ -1,16 +1,17 @@
 /**
  * * This file is part of the Java Programming Lecture project.
- * * It demonstrates the concept of `this` keyword in Java.
- * * The `this` keyword is a reference to the current object.
+ * *
+ * * This snippet shows how the 'this' keyword can be used to:
+ * * - Call another method within the same class.
+ * * - Emphasize that the method belongs to the current object.
+ * *
  * @package II_Unit.This_Super
  * @author Dr. S. Sampath Kumar
  * @since 03-08-2025
  * @version 1.0
  */
-package II_Unit.This_Super;
 
-// The “this” keyword is used to invoke the methods of 
-// the current object or class.     
+package II_Unit.This_Super;
 
 class Illustration2 {
 
@@ -20,13 +21,13 @@ class Illustration2 {
     }
 
     void name() {
-        // invoking current class scaler method.
+        // invoking current class 'app' method.
         this.app();
         System.out.println("Ravi.");
     }
 }
 
-public class this2 {
+public class ThisMethodInvoke {
 
     public static void main(String[] args) {
         // creating an instance of Illustration class

@@ -1,9 +1,17 @@
 /**
  * * This file is part of the Java Programming Lecture project.
+ * *
+ * * -----> Resolving Variable Shadowing <------
  * * It demonstrates the concept of `this` keyword in Java.
+ * *
+ * * Variable shadowing occurs when a local variable or parameter 
+ * * in a method or constructor has the same name as an instance 
+ * * variable (or field) of the class. The local variable "shadows" 
+ * * or hides the instance variable within that scope.
+
  * * The `this` keyword is a reference to the current object.
- * * It can be used to access instance variables and methods of the current object.
- * * In this example, the `Code` class uses `this` to refer to its instance variable.
+ * * It can be used to access instance variables and methods 
+ * * of the current object.
  * *
  * @package II_Unit.This_Super
  * @author Dr. S. Sampath Kumar
@@ -14,10 +22,15 @@ package II_Unit.This_Super;
 
 class Code {
     int value = 10;
+    Code(){
+    }
 
-    Code(int var) {
-        // this.value = var;
-        this.value = var;
+    Code(int value) {
+        //value = value; // Variable Shadowing
+        // this.value refers to instance variable
+        // value refers to parameter
+        this.value = value;
+            
     }
 
     void print() {
@@ -25,7 +38,7 @@ class Code {
     }
 }
 
-public class This {
+public class ThisVarShadowDemo {
     public static void main(String[] args) {
         // creating an instance of Illustration class
         Code obj = new Code(20);

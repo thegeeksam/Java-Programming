@@ -1,18 +1,20 @@
 /**
  * * This file is part of the Java Programming Lecture project.
- * * It demonstrates the concept of `this` keyword in Java.
- * * The `this` keyword is a reference to the current object.
+ * * 
+ * * -----> Constructor Chaining <-----
+ * *
+ * * This snippet shows how the this keyword can be used to:
+ * * - Call another constructor within the same class.
+ * * - Avoid code duplication by centralizing initialization logic.
+ * *
  * @package II_Unit.This_Super
  * @author Dr. S. Sampath Kumar
  * @since 03-08-2025
  * @version 1.0
  */
+
 package II_Unit.This_Super;
 
-
-//The this keyword is used to invoke the 
-//constructors of the current class. 
-// Illustration class
 class Illustration3 {
 
     // simple constructor
@@ -28,7 +30,7 @@ class Illustration3 {
     }
 }
 
-public class this3 {
+public class ThisConstructorChain {
 
     public static void main(String[] args) {
         // creating an instance of Illustration class

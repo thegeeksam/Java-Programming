@@ -1,7 +1,12 @@
 /**
  * * This file is part of the Java Programming Lecture project.
+ * * 
  * * It demonstrates the concept of `this` keyword in Java.
  * * The `this` keyword is a reference to the current object.
+ * * 
+ * * It helps in resolving variable shadowing and how 'this' 
+ * * keyword helps differentiate between class-level variables 
+ * * and method-level variables
  * @package II_Unit.This_Super
  * @author Dr. S. Sampath Kumar
  * @since 03-08-2025
