@@ -26,11 +26,10 @@ class Code {
     }
 
     Code(int value) {
-        //value = value; // Variable Shadowing
+        // value = value; // Variable Shadowing
         // this.value refers to instance variable
         // value refers to parameter
-        this.value = value;
-            
+        this.value = value;          
     }
 
     void print() {

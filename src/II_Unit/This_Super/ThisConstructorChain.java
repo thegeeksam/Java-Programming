@@ -31,7 +31,6 @@ class Illustration3 {
 }
 
 public class ThisConstructorChain {
-
     public static void main(String[] args) {
         // creating an instance of Illustration class
         Illustration3 obj = new Illustration3();

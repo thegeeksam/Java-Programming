@@ -15,8 +15,17 @@ package II_Unit.This_Super;
 
 class Illustration2 {
 
+    public Illustration2() {
+    }
+
+    
+    public Illustration2(int x) {
+        System.out.println("Hello Jaisurya!");
+    }
+    
     // current class method
     void app() {
+        // this.Illustration2(10);
         System.out.print("My name is ");
     }
 
