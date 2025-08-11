@@ -1,10 +1,15 @@
 /**
  * * This file is part of the Java Programming Lecture project.
  * *
+ * * A 'static variable' is a variable that belongs to the class 
+ * * rather than instances of the class.
+ * * It is shared among all instances of the class.
  * *
- * * 
  * * This Java snippet illustrates:
- * * - How the 'super' keyword accesses parent class constructor
+ * * - Creates four instances of Counter.
+ * * - Each time, the constructor runs and increments the shared count.
+ * * - Count is not reset for each object.
+ * * - Instead, it accumulates - a hallmark of 'static' behavior.
  * *
  * @package II_Unit.Static_Keyword;
  * @author Dr. S. Sampath Kumar
@@ -12,36 +17,21 @@
  * @version 1.0
  */
 package II_Unit.Static_Keyword;
+class Counter {
+    static int count = 0; // static variable
+
+    Counter() {
+        count++;
+        System.out.println("Object created. Count: " + count);
+    }
+}
 
 public class StaticVariable {
-    String studentName;
-    String course;
-    static String College;
-    // static String College = "SECE";
-
     public static void main(String[] args) {
-        StaticVariable Student1 = new StaticVariable();
-        StaticVariable Student2 = new StaticVariable();
-        StaticVariable Student3 = new StaticVariable();
-        Student1.studentName = "RAGAPRIYA K";
-        Student1.course = "OOPs with Java";
-        Student1.College = "SECE";
-        System.out.println(Student1.studentName + " " + Student1.course + " " +
-                Student1.College + "\n");
-
-        Student2.studentName = "PURNIMA S";
-        Student2.course = "Data Analysis with Python";
-        Student2.College = "SECE1";
-
-        Student3.studentName = "Rangesh";
-        Student3.course = "Data Analysis with R";
-        // Student2.College = "SECE1";
-
-        // System.out.println(Student1.studentName + " " + Student1.course + " " +
-        // Student1.College + "\n");
-
-        System.out.println(Student2.studentName + " " + Student2.course + " " + Student2.College + "\n");
-        System.out.println(Student3.studentName + " " + Student3.course + " " + Student3.College + "\n");
-
+        // Creates 4 instances of Counter
+        new Counter();
+        new Counter();
+        new Counter();
+        new Counter();
     }
 }

@@ -1,10 +1,19 @@
 /**
  * * This file is part of the Java Programming Lecture project.
  * *
+ * * A static block is executed once when the class is loaded 
+ * * into memory—before main() or any object is created.
+ * * It is ideal for
+ * * - Initializing static variables
+ * * - Loading configuration files or resources
+ * * - Performing setup tasks that should run only once
  * *
- * * 
  * * This Java snippet illustrates:
- * * - How the 'super' keyword accesses parent class constructor
+ * * - Declares 2 static variables: radius and area.
+ * * - These belong to the class, not to any instance.
+ * * - As soon as the class is loaded into memory, static block runs.
+ * * - It sets radius = 4 and calculates area = 16.
+ * * - The message "Invoked java static block!" confirms the block's execution
  * *
  * @package II_Unit.Static_Keyword;
  * @author Dr. S. Sampath Kumar

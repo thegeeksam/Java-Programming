@@ -1,69 +1,47 @@
 /**
  * * This file is part of the Java Programming Lecture project.
  * *
+ * * A static method belongs to the class, not to any specific object.
+ * * It can be accessed directly using the class name, 
+ * * and it can only interact with static members.
  * *
- * * 
  * * This Java snippet illustrates:
  * * - How the 'super' keyword accesses parent class constructor
  * *
  * @package II_Unit.Static_Keyword;
  * @author Dr. S. Sampath Kumar
  * @since 11-08-2025
+ * 
  * @version 1.0
  */
 package II_Unit.Static_Keyword;
 
 // Java code to demonstrate the use of static methods in a program
-class Employee {
-    private int employeeId;
-    private String employeeName;
-
-    // companyName static variable as it will be the same for all employees
-    static String companyName;
-
-    // constructer to initilize Employee objects
-    public Employee(String employeeName) {
-        this.employeeName = employeeName;
-        this.employeeId = setEmployeeId();
+class MathUtils {
+    int a = 10;
+    static int square(int x) {
+        // this will throw an error since 'a' is not static member
+        // a++;
+        return x * x;
     }
-
-    // using a static count variable to
-    // set consecutive employeeId to each Employee object
-    static int count = 0;
-
-    // static method to set consecutive employeeId for each employee object
-    static int setEmployeeId() {
-        count++;
-        return count;
-    }
-
-    // static method to set company name common for every object
-    static void setCompanyName(String company) {
-        companyName = company;
-    }
-
-    // instance method
-    void getEmployeeInfo() {
-        System.out.println("Employee Name: " + this.employeeName);
-        System.out.println("Employee ID: " + this.employeeId);
-        System.out.println("Company Name: " + companyName);
-        System.out.println("-----------------------");
+    void printValue() {
+        System.out.println("Value of instance variable a: " + a);
     }
 }
 
 public class StaticMethod {
     public static void main(String[] args) {
-        // using setCompanyName static method
-        // with the class name directly to set the
-        // static companyName variable common for all objects
-        Employee.companyName = "Alphabet";
+        // Calling the static method square from MathUtils class
+        // using the class name directly
+        int result = MathUtils.square(5);
+        System.out.println("Square of 5 is: " + result);
 
-        Employee e1 = new Employee("VETHAVARSHINI R");
-        Employee e2 = new Employee("THIKSHA RUBINI S"); 
-        Employee e3 = new Employee("SWETHA N");
-
-        e1.getEmployeeInfo();
-        e2.getEmployeeInfo();
-        e3.getEmployeeInfo();
+        // Cannot access non-static members directly in static context
+        // This will throw an error
+        // System.out.println("Value of a: " + MathUtils.a); 
+        
+        // Creating an instance of MathUtils to call the non-static method
+        MathUtils mathUtils = new MathUtils();
+        mathUtils.printValue();
     }
 }
