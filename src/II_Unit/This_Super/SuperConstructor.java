@@ -5,8 +5,6 @@
  * * The `super` keyword is a reference to the parent class object.
  * * It can be used to access parent class methods and variables.
  * *
-// The super keyword is used to invoke an immediate parent class constructor.
-
  * * This Java snippet illustrates:
  * * - How the 'super' keyword accesses parent class constructor
  * *
@@ -31,7 +29,8 @@ class Child3 extends Parent3 {
   // child class constructor
     Child3() {
       // invoking parent class constructor
-      // super();
+      // constructor overriding
+      // super();  // Explicitly call superclass constructor - Polymorphism
       System.out.println("Hi I am Child class constructor.");
       // super();
     }

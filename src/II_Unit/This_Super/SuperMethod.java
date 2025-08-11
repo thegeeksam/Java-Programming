@@ -35,7 +35,8 @@ class Child2 extends Parent2 {
 
     void print() {
         // 'super' keyword is used to invoke method from parent class
-        super.display();
+        // method Overriding
+        super.display(); // Explicitly call superclass method - Polymorphism
         // display method from child class
         this.display();
     }

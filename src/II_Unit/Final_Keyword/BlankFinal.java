@@ -1,4 +1,4 @@
-package II_Unit.Static_final;
+package II_Unit.Final.Static_final;
 
 public class BlankFinal {
     public static void main(String[] args) {

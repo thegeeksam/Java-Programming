@@ -1,4 +1,17 @@
-package II_Unit.Static_final;
+/**
+ * * This file is part of the Java Programming Lecture project.
+ * *
+ * *
+ * * 
+ * * This Java snippet illustrates:
+ * * - How the 'super' keyword accesses parent class constructor
+ * *
+ * @package II_Unit.Static_Keyword;
+ * @author Dr. S. Sampath Kumar
+ * @since 11-08-2025
+ * @version 1.0
+ */
+package II_Unit.Static_Keyword;
 
 // Java code to demonstrate the use of static methods in a program
 class Employee {
