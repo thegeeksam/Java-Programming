@@ -25,6 +25,7 @@ public void method() {
 
 ---
 ##🌞 Day 2: Integer Caching and Autoboxing
+
 **Concept:**
 Java caches `Integer` values from -128 to 127. So `==` works for those values, but not beyond.
 
