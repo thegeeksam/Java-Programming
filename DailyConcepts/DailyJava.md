@@ -1,8 +1,7 @@
 ## 📚 Table of Contents
 - [Day 1: Constructor Chaining](#day-1-constructor-chaining-vs-method-invocation)
-- [Day 2: Day 2: Integer Caching and Autoboxing](#day-2-Integer-Caching-and-Autoboxing)
-<!--ts-->
-<!--te-->
+- [Day 2: Integer Caching and Autoboxing](#day-2-Integer-Caching-and-Autoboxing)
+
 
 ## 🌞 Day 1: Constructor Chaining vs Method Invocation
 
