@@ -1,5 +1,6 @@
 ## 📚 Table of Contents
 - [Day 1: Constructor Chaining](#day-1-constructor-chaining-vs-method-invocation)
+- [Day 2: Day 2: Integer Caching and Autoboxing](#day-2-Integer-Caching-and-Autoboxing)
 <!--ts-->
 <!--te-->
 
@@ -22,7 +23,8 @@ public void method() {
 
 **Reference:**  [Calling a constructor from method within the same class](https://stackoverflow.com/questions/19614423/calling-a-constructor-from-method-within-the-same-class)
 
-🌞 Day 2: Integer Caching and Autoboxing
+---
+##🌞 Day 2: Integer Caching and Autoboxing
 **Concept:**
 Java caches `Integer` values from -128 to 127. So `==` works for those values, but not beyond.
 
