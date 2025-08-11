@@ -14,12 +14,11 @@
  */
 
 package II_Unit.This_Super;
-
 class Illustration3 {
 
     // simple constructor
     Illustration3() {
-        // System.out.println("Hello CSE B!");
+        System.out.println("Hello CSE B!");
         // invoking parameterized constructor
         this(10);
     }
@@ -27,6 +26,9 @@ class Illustration3 {
     // parameterized constructor
     Illustration3(int x) {
         System.out.println("Current class parameterized constructor invoked.");
+        // File file = new File("example.txt");
+        // file.write("Number is : " + x);
+        // file.close();
         System.out.println("Number is : " + x);
     }
 }
