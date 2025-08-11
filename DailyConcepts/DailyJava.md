@@ -1,6 +1,7 @@
 ## 📚 Table of Contents
 - [Day 1: Constructor Chaining](#day-1-constructor-chaining-vs-method-invocation)
-
+<!--ts-->
+<!--te-->
 
 ## 🌞 Day 1: Constructor Chaining vs Method Invocation
 
