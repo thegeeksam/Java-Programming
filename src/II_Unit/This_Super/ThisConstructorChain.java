@@ -19,7 +19,7 @@ class Illustration3 {
 
     // simple constructor
     Illustration3() {
-        System.out.println("Hello CSE B!");
+        // System.out.println("Hello CSE B!");
         // invoking parameterized constructor
         this(10);
     }
