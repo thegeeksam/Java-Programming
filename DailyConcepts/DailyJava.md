@@ -24,7 +24,7 @@ public void method() {
 **Reference:**  [Calling a constructor from method within the same class](https://stackoverflow.com/questions/19614423/calling-a-constructor-from-method-within-the-same-class)
 
 ---
-##🌞 Day 2: Integer Caching and Autoboxing
+## 🌞 Day 2: Integer Caching and Autoboxing
 
 **Concept:**
 Java caches `Integer` values from -128 to 127. So `==` works for those values, but not beyond.
