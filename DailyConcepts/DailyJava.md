@@ -3,7 +3,7 @@
 ## 📚 Table of Contents
 - [Day 1: Constructor Chaining](#-day-1-constructor-chaining-vs-method-invocation)
 - [Day 2: Integer Caching and Autoboxing](#-day-2-integer-caching-and-autoboxing)
-- [Day 3: Final vs Finally vs Finalize](Day-3-Final-vs-Finally-vs-Finalize)
+- [Day 3: Final vs Finally vs Finalize](Day-3-final-vs-finally-vs-finalize)
 
 
 ***
