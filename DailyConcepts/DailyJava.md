@@ -26,6 +26,7 @@ public void method() {
 
 **Reference:**  [Calling a constructor from method within the same class](https://stackoverflow.com/questions/19614423/calling-a-constructor-from-method-within-the-same-class)
 
+[Back to Top](#-table-of-contents)
 ---
 ## 🌞 Day 2: Integer Caching and Autoboxing
 
@@ -56,4 +57,5 @@ public void method() {
 
 **Reference:** [In Java, what purpose do the keywords `final`, `finally` and `finalize` fulfil?](https://stackoverflow.com/questions/7814688/in-java-what-purpose-do-the-keywords-final-finally-and-finalize-fulfil)
 
+[Back to Top](#-table-of-contents)
 ---
