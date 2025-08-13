@@ -35,12 +35,11 @@ class Child1 extends Parent1 {
 
         // printing instance variable value of the current/child class
         System.out.println("Number from child class is : " + this.iA);
-        System.out.println("String from child class is : " + this.sB);
+        System.out.println("String from child class is : " + sB);
     }
 }
 
 public class SuperVariable {
-
     public static void main(String[] args) {
         // creating instance of child class
         Child1 obj = new Child1();

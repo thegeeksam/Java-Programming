@@ -19,7 +19,6 @@ package II_Unit.This_Super;
 
 // parent class
 class Parent2 {
-
     // declaring display method parent class
     void display() {
         System.out.println("Hi I am parent method.");
