@@ -2,7 +2,8 @@
 
 ## 📚 Table of Contents
 - [Day 1: Constructor Chaining](#-day-1-constructor-chaining-vs-method-invocation)
-- [Day 2: Integer Caching and Autoboxing](#-day-2-integer-caching-and-autoboxing) 
+- [Day 2: Integer Caching and Autoboxing](#-day-2-integer-caching-and-autoboxing)
+- [Day 3: Final vs Finally vs Finalize](#-day-3-final-vs-finally-vs-finalize)
 
 
 ***
@@ -25,6 +26,7 @@ public void method() {
 
 **Reference:**  [Calling a constructor from method within the same class](https://stackoverflow.com/questions/19614423/calling-a-constructor-from-method-within-the-same-class)
 
+[Back to Top](#-table-of-contents)
 ---
 ## 🌞 Day 2: Integer Caching and Autoboxing
 
@@ -42,3 +44,18 @@ public void method() {
 ```
 
 **Reference:** [Why does Integer.valueOf(127) == Integer.valueOf(127) return true?](https://stackoverflow.com/questions/3591112/detect-series-items-of-listbox-vb6/3616756#3616756)
+
+[Back to Top](#-table-of-contents)
+---
+
+## 🌞 Day 3: Final vs Finally vs Finalize
+
+**Concept:**
+- final: constant or non-inheritable
+- finally: block after try-catch
+- finalize(): deprecated cleanup method
+
+**Reference:** [In Java, what purpose do the keywords `final`, `finally` and `finalize` fulfil?](https://stackoverflow.com/questions/7814688/in-java-what-purpose-do-the-keywords-final-finally-and-finalize-fulfil)
+
+[Back to Top](#-table-of-contents)
+---
