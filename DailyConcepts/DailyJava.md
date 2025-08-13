@@ -28,7 +28,7 @@ public void method() {
 
 **Reference:**  [Calling a constructor from method within the same class](https://stackoverflow.com/questions/19614423/calling-a-constructor-from-method-within-the-same-class)
 
-[🔝 Back to Top](#📚-table-of-contents)
+[🔝 Back to Top](#-table-of-contents)
 
 ---
 ## 🌞 Day 2: Integer Caching and Autoboxing
@@ -48,7 +48,7 @@ public void method() {
 
 **Reference:** [Why does Integer.valueOf(127) == Integer.valueOf(127) return true?](https://stackoverflow.com/questions/3591112/detect-series-items-of-listbox-vb6/3616756#3616756)
 
-[🔝 Back to Top](#📚-table-of-contents)
+[🔝 Back to Top](#-table-of-contents)
 
 ---
 
@@ -61,7 +61,7 @@ public void method() {
 
 **Reference:** [In Java, what purpose do the keywords `final`, `finally` and `finalize` fulfil?](https://stackoverflow.com/questions/7814688/in-java-what-purpose-do-the-keywords-final-finally-and-finalize-fulfil)
 
-[🔝 Back to Top](#📚-table-of-contents)
+[🔝 Back to Top](#-table-of-contents)
 
 ---
 
@@ -109,6 +109,6 @@ public class MethodDemo {
 **Reference:**
 [Difference between static methods and instance methods – Stack Overflow](https://stackoverflow.com/questions/11993077/difference-between-static-methods-and-instance-methods)
 
-[🔝 Back to Top](#📚-table-of-contents)
+[🔝 Back to Top](#-table-of-contents)
 
 ---
