@@ -4,6 +4,7 @@
 - [Day 1: Constructor Chaining](#-day-1-constructor-chaining-vs-method-invocation)
 - [Day 2: Integer Caching and Autoboxing](#-day-2-integer-caching-and-autoboxing)
 - [Day 3: Final vs Finally vs Finalize](#-day-3-final-vs-finally-vs-finalize)
+- [Day 4: Static vs Instance Methods in Java](#-day-4-static-vs-instance-methods-in-java)
 
 
 ***
@@ -56,6 +57,53 @@ public void method() {
 - finalize(): deprecated cleanup method
 
 **Reference:** [In Java, what purpose do the keywords `final`, `finally` and `finalize` fulfil?](https://stackoverflow.com/questions/7814688/in-java-what-purpose-do-the-keywords-final-finally-and-finalize-fulfil)
+
+[Back to Top](#-table-of-contents)
+---
+
+## 🌞 Day 4: Static vs Instance Methods in Java
+
+### 🔍 Concept Overview
+
+In Java, methods can be either **static** or **instance**:
+
+| Feature            | Static Method                          | Instance Method                          |
+|--------------------|----------------------------------------|------------------------------------------|
+| Belongs to         | Class                                  | Object                                   |
+| Invocation         | `ClassName.method()`                   | `object.method()`                        |
+| Access             | Only static members                    | Both static and instance members         |
+| `this` keyword     | ❌ Not allowed                         | ✅ Allowed                                |
+| Polymorphism       | ❌ No runtime polymorphism (method hiding) | ✅ Supports runtime polymorphism          |
+
+---
+
+### 💡 Example Code
+
+```java
+public class MethodDemo {
+
+    static void staticGreet() {
+        System.out.println("Hello from static method!");
+    }
+
+    void instanceGreet() {
+        System.out.println("Hello from instance method!");
+    }
+
+    public static void main(String[] args) {
+        // Calling static method
+        MethodDemo.staticGreet(); // ✅ No object needed
+
+        // Calling instance method
+        MethodDemo obj = new MethodDemo();
+        obj.instanceGreet(); // ✅ Object required
+    }
+}
+```
+
+
+**Reference:**
+[Difference between static methods and instance methods – Stack Overflow](https://stackoverflow.com/questions/11993077/difference-between-static-methods-and-instance-methods)
 
 [Back to Top](#-table-of-contents)
 ---
