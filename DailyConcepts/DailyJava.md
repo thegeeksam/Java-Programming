@@ -54,10 +54,17 @@ public void method() {
 
 ## 🌞 Day 3: Final vs Finally vs Finalize
 
-**Concept:**
-- final: constant or non-inheritable
-- finally: block after try-catch
-- finalize(): deprecated cleanup method
+### 🔍 Concept Overview
+
+Though they sound similar, `final`, `finally`, and `finalize` serve **completely different purposes** in Java:
+
+| Keyword   | Purpose                                      | Usage Context           |
+|-----------|----------------------------------------------|--------------------------|
+| `final`   | Prevents modification                        | Variables, methods, classes |
+| `finally` | Ensures code execution after try-catch       | Exception handling       |
+| `finalize`| Cleanup before object is garbage collected   | Object lifecycle         |
+
+---
 
 **Reference:** [In Java, what purpose do the keywords `final`, `finally` and `finalize` fulfil?](https://stackoverflow.com/questions/7814688/in-java-what-purpose-do-the-keywords-final-finally-and-finalize-fulfil)
 
