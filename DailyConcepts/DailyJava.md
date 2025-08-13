@@ -1,10 +1,11 @@
 # 🔥 Byte by Byte: Java Sparks for Curious Minds
 
 ## 📚 Table of Contents
-- [Day 1: Constructor Chaining](#-day-1-constructor-chaining-vs-method-invocation)
-- [Day 2: Integer Caching and Autoboxing](#-day-2-integer-caching-and-autoboxing)
-- [Day 3: Final vs Finally vs Finalize](#-day-3-final-vs-finally-vs-finalize)
-- [Day 4: Static vs Instance Methods in Java](#-day-4-static-vs-instance-methods-in-java)
+- [🌞 Day 1: Constructor Chaining vs Method Invocation](#-day-1-constructor-chaining-vs-method-invocation)
+- [🌞 Day 2: Integer Caching and Autoboxing](#-day-2-integer-caching-and-autoboxing)
+- [🌞 Day 3: Final vs Finally vs Finalize](#-day-3-final-vs-finally-vs-finalize)
+- [🌞 Day 4: Static vs Instance Methods in Java](#-day-4-static-vs-instance-methods-in-java)
+
 
 
 ***
@@ -27,7 +28,8 @@ public void method() {
 
 **Reference:**  [Calling a constructor from method within the same class](https://stackoverflow.com/questions/19614423/calling-a-constructor-from-method-within-the-same-class)
 
-[Back to Top](#-table-of-contents)
+[🔝 Back to Top](#📚-table-of-contents)
+
 ---
 ## 🌞 Day 2: Integer Caching and Autoboxing
 
@@ -46,7 +48,8 @@ public void method() {
 
 **Reference:** [Why does Integer.valueOf(127) == Integer.valueOf(127) return true?](https://stackoverflow.com/questions/3591112/detect-series-items-of-listbox-vb6/3616756#3616756)
 
-[Back to Top](#-table-of-contents)
+[🔝 Back to Top](#📚-table-of-contents)
+
 ---
 
 ## 🌞 Day 3: Final vs Finally vs Finalize
@@ -58,7 +61,8 @@ public void method() {
 
 **Reference:** [In Java, what purpose do the keywords `final`, `finally` and `finalize` fulfil?](https://stackoverflow.com/questions/7814688/in-java-what-purpose-do-the-keywords-final-finally-and-finalize-fulfil)
 
-[Back to Top](#-table-of-contents)
+[🔝 Back to Top](#📚-table-of-contents)
+
 ---
 
 ## 🌞 Day 4: Static vs Instance Methods in Java
@@ -105,5 +109,6 @@ public class MethodDemo {
 **Reference:**
 [Difference between static methods and instance methods – Stack Overflow](https://stackoverflow.com/questions/11993077/difference-between-static-methods-and-instance-methods)
 
-[Back to Top](#-table-of-contents)
+[🔝 Back to Top](#📚-table-of-contents)
+
 ---
