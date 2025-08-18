@@ -23,7 +23,7 @@
 package II_Unit.Static_Keyword;
 
 // Java code to demonstrate the use of static nested classes
-public class StaticClass {
+public class OuterClass {
     private static String sPgm = "JAVA";
     private int iA = 10; // non-static variable
 
@@ -41,7 +41,7 @@ public class StaticClass {
 
     public static void main(String args[]) {
         // No need for Outer class object
-        StaticClass.staticNestedClass ins1 = new StaticClass.staticNestedClass();
+        OuterClass.staticNestedClass ins1 = new OuterClass.staticNestedClass();
         ins1.display();
     }
 }

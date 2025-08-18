@@ -6,7 +6,8 @@
  * * and it can only interact with static members.
  * *
  * * This Java snippet illustrates:
- * * - How the 'super' keyword accesses parent class constructor
+ * * - The use of static methods
+ * * - How static methods can be called without creating an instance
  * *
  * @package II_Unit.Static_Keyword;
  * @author Dr. S. Sampath Kumar
@@ -17,7 +18,7 @@
 package II_Unit.Static_Keyword;
 
 // Java code to demonstrate the use of static methods in a program
-class MathUtils {
+class StaticExample {
     int a = 10;
     static int square(int x) {
         // this will throw an error since 'a' is not static member
@@ -31,17 +32,18 @@ class MathUtils {
 
 public class StaticMethod {
     public static void main(String[] args) {
-        // Calling the static method square from MathUtils class
+        // Calling the static method square from StaticExample class
         // using the class name directly
-        int result = MathUtils.square(5);
+        int result = StaticExample.square(5);
         System.out.println("Square of 5 is: " + result);
 
         // Cannot access non-static members directly in static context
         // This will throw an error
-        // System.out.println("Value of a: " + MathUtils.a); 
-        
-        // Creating an instance of MathUtils to call the non-static method
-        MathUtils mathUtils = new MathUtils();
-        mathUtils.printValue();
+        // System.out.println("Value of a: " + StaticExample.a); 
+        // StaticExample.printValue();
+
+        // Creating an instance of StaticExample to call the non-static method
+        // StaticExample se = new StaticExample();
+        // se.printValue();
     }
 }

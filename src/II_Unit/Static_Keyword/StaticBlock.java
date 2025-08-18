@@ -27,8 +27,10 @@ public class StaticBlock {
     static int area;
     static int radius;
     
-    // static block declaration
-    static {
+    // run before main()
+    // will run only once. 
+    // class‑level initialization 
+    static {// static block declaration
         System.out.println("Invoked java static block!");
         // initializing radius and area static variable
         radius = 4;

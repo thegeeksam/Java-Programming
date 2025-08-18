@@ -18,7 +18,7 @@
  */
 package II_Unit.Static_Keyword;
 class Counter {
-    static int count = 0; // static variable
+    static int count = 0; // static variable shared by all Counter objects
 
     Counter() {
         count++;

@@ -46,9 +46,9 @@ class DerivedClass extends BaseClass{
 } 
 public class C_OverRiding { 
 	public static void main (String args []) { 
-		BaseClass obj1 = new BaseClass(); 	
-		obj1.methodA(); 
-		System.out.println("Hello CSE B");
+		// BaseClass obj1 = new BaseClass(); 	
+		// obj1.methodA(); 
+		// System.out.println("Hello CSE B");
 		BaseClass obj2 = new DerivedClass(); 
 		obj2.methodA(); 
 	} 
