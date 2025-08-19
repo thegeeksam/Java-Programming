@@ -1,9 +1,9 @@
-package II_Unit.Final.Static_final;
+package II_Unit.Final_Keyword;
 
-public class FinalReference {
+public class Chumma1 {
     public static void main(String[] args) {
         // Final reference variable
-        final StringBuffer strBuffer = new StringBuffer("Hello, II CSE C!!!");
+        final StringBuffer strBuffer = new StringBuffer("Hello, II CSE B!!!");
 
         // Printing the element in strBuffer
         System.out.println(strBuffer);

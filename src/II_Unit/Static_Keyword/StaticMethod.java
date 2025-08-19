@@ -22,6 +22,7 @@ class StaticExample {
     int a = 10;
     static int square(int x) {
         // this will throw an error since 'a' is not static member
+        // int a = 0;
         // a++;
         return x * x;
     }
@@ -43,7 +44,7 @@ public class StaticMethod {
         // StaticExample.printValue();
 
         // Creating an instance of StaticExample to call the non-static method
-        // StaticExample se = new StaticExample();
-        // se.printValue();
+        StaticExample se = new StaticExample();
+        se.printValue();
     }
 }

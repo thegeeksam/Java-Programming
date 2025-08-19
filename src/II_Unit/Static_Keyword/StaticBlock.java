@@ -26,7 +26,6 @@ public class StaticBlock {
     // static variable declaration
     static int area;
     static int radius;
-    
     // run before main()
     // will run only once. 
     // class‑level initialization 
@@ -38,6 +37,8 @@ public class StaticBlock {
     }
 
     public static void main(String[] args) {
+        // System.out.println(radius);
+        // System.out.println(++radius);
         System.out.println("In the main() function");
         System.out.println("Area of square with radius " + radius + ": " + area);
     }

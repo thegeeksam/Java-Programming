@@ -19,10 +19,12 @@
 package II_Unit.Static_Keyword;
 class Counter {
     static int count = 0; // static variable shared by all Counter objects
+    int iJoshua = 0; // non-static variable, unique to each instance
 
     Counter() {
         count++;
-        System.out.println("Object created. Count: " + count);
+        iJoshua++;
+        System.out.println("Object created. Count: " + count + ", iJoshua: " + iJoshua);
     }
 }
 

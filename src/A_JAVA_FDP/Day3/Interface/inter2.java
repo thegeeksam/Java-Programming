@@ -13,8 +13,8 @@ public class inter2 {
 }
 
 @FunctionalInterface
-// A functional interface is an interface that contains only one abstract
-// method.
+// A functional interface is an interface that contains only
+// one abstract method.
 interface First {
     public void show();
 }

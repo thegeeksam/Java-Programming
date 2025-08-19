@@ -1,6 +1,7 @@
-package II_Unit.Final.Static_final;
+package II_Unit.Final_Keyword;
 
-public class BlankFinal {
+public class BlankFinalVar {
+
     public static void main(String[] args) {
 
         // declaring a final variable

@@ -1,4 +1,4 @@
-package II_Unit.Final.Static_final;
+package II_Unit.Final_Keyword;
 
 public class FinalVar {
     public static void main(String[] args) {
