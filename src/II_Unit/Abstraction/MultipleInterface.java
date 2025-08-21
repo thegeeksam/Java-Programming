@@ -19,6 +19,7 @@ interface FirstInterface {
 
 interface SecondInterface {
   public void myOtherMethod(); // interface method
+  public void myMethod(); // interface method
 }
 
 class DemoClass implements FirstInterface, SecondInterface {

@@ -1,7 +1,7 @@
 /**
  * * This file is part of the Java Programming Lecture project.
  * *
- * * An interface in Java defines a blueprint of methods 
+ * * An interface in Java defines a contract or blueprint of methods 
  * * that implementing classes must fulfill. By default, all methods
  * * are public abstract and all fields are public static final. 
  * * Interfaces enable multiple inheritance of type and promote 
@@ -17,16 +17,16 @@
  * @version 1.0
  */
 
-package II_Unit.Abstraction; 
+// package II_Unit.Abstraction;
 // Interface
-interface Animal {
+interface Animal1 {
   // abstract method (does not have a body)
   public void animalSound(); 
   public void sleep(); 
 }
 
 // Lion "implements" the Animal interface
-class Lion implements Animal {
+class Lion implements Animal1 {
   @Override
   public void animalSound() {
     // implementation of animalSound()
