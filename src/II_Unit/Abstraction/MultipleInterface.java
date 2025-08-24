@@ -13,7 +13,7 @@
 
 package II_Unit.Abstraction;
 interface FirstInterface {
-  public void myMethod(); // interface method
+  public void myMethod(); // abstract method
   int iA = 10; // Member
 }
 

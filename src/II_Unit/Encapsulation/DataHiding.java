@@ -16,7 +16,6 @@
 
 package II_Unit.Encapsulation;
 class Employee {
-    
     // private variables
     // Data Hiding
     private String name = "Madhumitha";
