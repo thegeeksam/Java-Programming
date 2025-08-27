@@ -4,6 +4,11 @@
  * * Java packages are foundational elements for organizing code
  * * into coherent and manageable structures
  * *
+ * * It helps organize your code into logical units,
+ * * makes large codebases easier to navigate, 
+ * * and prevents naming conflicts by isolating 
+ * * class names within distinct hierarchies
+ * *
  * @package II_Unit.Polymorphism
  * @author Dr. S. Sampath Kumar
  * @since 24-08-2025
@@ -11,7 +16,7 @@
  */
 
 package II_Unit.Packages;
-import II_Unit.Packages.MyPack.ClassD;
+// import II_Unit.Packages.MyPack.ClassD;
 
 public class MultiLevel{
     public static void main(String args[]){

@@ -11,17 +11,15 @@
  */
 
 package II_Unit.Packages;
-import II_Unit.Packages.*;
-//import II_Unit.Packages.MyPack.*;
+import II_Unit.Packages.MyPack.*;
+
 
 class Chumma {
   public static void main(String[] args) {
     System.out.println("This is my package!");
-
+    ClassD cse = new ClassD();
     MultiLevel ml = new MultiLevel();
     ml.show();
-
-    ClassD cse = new ClassD();
     cse.displayA();
     cse.displayB();
     cse.displayC();

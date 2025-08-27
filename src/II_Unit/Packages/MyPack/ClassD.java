@@ -11,7 +11,7 @@
  */
 
 package II_Unit.Packages.MyPack;
-//import II_Unit.Packages.MyPack.ClassD;
+//import II_Unit.Packages.MyPack.ClassC;
 
 public class ClassD extends ClassC{
     public void displayD(){

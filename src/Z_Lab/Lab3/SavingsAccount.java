@@ -1,12 +1,6 @@
 package Z_Lab.Lab3;
 
-abstract class BankAccount {
-    abstract void deposit(double amount);
-    abstract void withdraw(double amount);
-    abstract double getBalance();
-}
-
-public class SavingsAccount extends BankAccount {
+public class SavingsAccount implements BankAccount {
     private String accountHolder;
     private String accountNumber;
     private double balance;
