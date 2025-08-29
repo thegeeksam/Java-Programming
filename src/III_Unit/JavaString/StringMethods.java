@@ -3,36 +3,36 @@ package III_Unit.JavaString;
 public class StringMethods {
     public static void main(String[] args) {
 
-        // String str1 = "II CSE B!";
+        String str1 = "II CSE B!";
         // Length of the string
-        // int classLength = str1.length();
-        // System.out.println(classLength);
+        int classLength = str1.length();
+        System.out.println(classLength);
 
         // Returns the character at the given index number.
-        // char ch = str1.charAt(3);
-        // System.out.println(ch);
+        char ch = str1.charAt(3);
+        System.out.println(ch);
 
         // Concatenate 2 string: Method 1
-        // String str2 = "II CSE";
-        // str2 = str2.concat(" C!");
-        // System.out.println(str2);
+        String str2 = "II CSE";
+        str2 = str2.concat(" C!");
+        System.out.println(str2);
 
         // Concatenate 2 string: Method 2
-        // String str1 = "II CSE";
-        // String str2 = " \"C\"!"; // Escape Character
-        // String concatenated = str1 + str2;
-        // System.out.println(concatenated);
+        String str1 = "II CSE";
+        String str2 = " \"C\"!"; // Escape Character
+        String concatenated = str1 + str2;
+        System.out.println(concatenated);
 
         // Escape Character
-        // String str = "II CSE \"C\"!"; // Escape Character
-        // System.out.println(str);
+        String str = "II CSE \"C\"!"; // Escape Character
+        System.out.println(str);
 
         // Substring
-        // String subStr = "I like Java Programming";
-        // String subStr1 = subStr.substring(0, 11);
-        // String subStr2 = subStr.substring(3);
-        // System.out.println(subStr1);
-        // System.out.println(subStr2);
+        String subStr = "I like Java Programming";
+        String subStr1 = subStr.substring(0, 11);
+        String subStr2 = subStr.substring(3);
+        System.out.println(subStr1);
+        System.out.println(subStr2);
 
         // Equals
         // String str3 = "cse";
