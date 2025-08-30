@@ -7,7 +7,7 @@ public class LiteralNew {
         // New String is not created.
         // str2 is pointing to the old string value only.
         String str2 = "Hello, II CSE B";
-        System.out.println(str1.hashCode() + " " + str2.hashCode());
+        // System.out.println(str1.hashCode() + " " + str2.hashCode());
         // both str1 and str2 reference the same object in the pool
         System.out.println(str1 == str2); // true
         System.out.println(str1.equals(str2)); // true
