@@ -13,34 +13,34 @@ public class StrBufferMethods {
         System.out.println(sb + " " + sb.capacity() + " " + sb.length());
 
         // Insert Java at index 1
-        // sb.insert(1, "Java");
-        // System.out.println(sb);
+        sb.insert(1, "Java");
+        System.out.println(sb);
 
         // Replace the characters from index 1 to 3 with CSE
-        // sb.replace(1, 4, "CSE");
-        // System.out.println(sb);
+        sb.replace(1, 4, "CSE");
+        System.out.println(sb);
 
         // Delete the characters from index 1 to 3
-        // sb.delete(1, 3);
-        // System.out.println(sb);
+        sb.delete(1, 4);
+        System.out.println(sb);
 
         // Reverse the string
-        // sb.reverse();
-        // System.out.println(sb);
+        sb.reverse();
+        System.out.println(sb);
         // Reverse again
         // sb.reverse();
         // System.out.println(sb);
 
         // Set the character at index 1 to i
         sb.setCharAt(1, 'i');
-        System.out.println(sb);
+        // System.out.println(sb);
         // System.out.println(sb + " " + sb.length() + " " + sb.capacity());
         // sb.append("01234567890");
         // System.out.println(sb + " " + sb.capacity());
 
         // Set the length of the string to 3
-        // sb.setLength(3);
-        // System.out.println(sb + " " + sb.capacity());
+        sb.setLength(3);
+        System.out.println(sb + " " + sb.capacity());
 
         // sb.ensureCapacity(100);
         // System.out.println(sb + " " + sb.capacity());''
