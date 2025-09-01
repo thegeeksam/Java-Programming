@@ -12,7 +12,7 @@ public class ArrayListEx {
 
         str.add("II");
         str.add("CSE");
-        str.add("C");
+        str.add("B");
 
         // print the ArrayList
         System.out.println("ArrayList is" + str);
