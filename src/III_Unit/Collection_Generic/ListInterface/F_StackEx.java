@@ -1,10 +1,24 @@
+/**
+ * * This file is part of the Java Programming Lecture project
+ * *
+ * * This Java snippet illustrates:
+ * * - How to create and use a Stack<Integer>
+ * * - How elements are added and removed in LIFO order
+ * * - How to inspect the stack’s size and top element
+ * *
+ * @package III_Unit.Collection_Generic.ListInterface;
+ * @author Dr. S. Sampath Kumar
+ * @since 03-09-2025
+ * @version 2.0
+ */
+
 package III_Unit.Collection_Generic.ListInterface;
 
 import java.util.*;
 
 // Stack class extends the Vector class and it is its subclass.
 // It works on the principle of Last-In, First-Out.
-public class StackEx {
+public class F_StackEx {
     public static void main(String args[]) {
         // creating a Stack
         Stack<Integer> s = new Stack<Integer>();

@@ -25,8 +25,9 @@ public class CollectionExample {
         values.add("II CSE B!");
         values.add(38);
         values.add(true);
-
+        // print size of collection
         System.out.println("Size of Collection is: " + values.size());
+
         // print all elements in the collection
         System.out.println("Elements in Collection are: " + values);
         // Access the element via index will throw an error
@@ -43,10 +44,10 @@ public class CollectionExample {
 
         // A Collection can only be iterated once
         // Create a new iterator to iterate again
-        // it = values.iterator();
-        // while(it.hasNext()) {
-        //     System.out.println("Hi"+ it.next());
-        // }
+        it = values.iterator();
+        while(it.hasNext()) {
+            System.out.println("Hi"+ it.next());
+        }
 
         // Since there is no index based access, we cannot
         // insert an element in the middle of the collection

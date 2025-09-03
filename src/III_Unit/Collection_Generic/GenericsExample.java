@@ -7,9 +7,10 @@
  * * to include specific data type we are moving to Generics
  * *
  * * This Java snippet illustrates:
- * * - Example of Generics in Java
- * * - Type Safety with Generics
- * * - Compile-time type checking
+ * * - Show how Generics enforce 'type safety' in Java collections.
+ * * - Demonstrate compile-time checking to prevent type mismatches.
+ * * - Illustrate how to sort, reverse, and shuffle a list of integers.
+ * * - Use a generic method to print elements of any list type.
  * *
  * * Type safety:
  * * program enforces the correct usage of data types
@@ -34,29 +35,33 @@ public class GenericsExample {
         List<String> values = new ArrayList<>();
         values.add("Hello");
         values.add("II CSE B!");
-        // values.add(38); // Compile-time error
-        // values.add(true); // Compile-time error
+        // Adding non-String types would cause compile-time errors,
+        // enforcing type safety.
+
+        // values.add(38); 
+        // values.add(true);
         values.add(1,", "); 
         printValues(values);
 
-        List<Integer> intValues = new ArrayList<>();
-        intValues.add(10);
-        intValues.add(20);
-        intValues.add(14);
-        intValues.add(7);
-        intValues.add(1,30);
-        // Sort
-        Collections.sort(intValues);
-        // Reverse sort
-        Collections.reverse(intValues);
-        // Since we can change values of List
-        // It is mutable
-        Collections.shuffle(intValues);
-        printValues(intValues);
+        // List<Integer> intValues = new ArrayList<>();
+        // intValues.add(10);
+        // intValues.add(20);
+        // intValues.add(14);
+        // intValues.add(7);
+        // intValues.add(1,30);
+        // // call Sort from Collections class to sort content of List
+        // Collections.sort(intValues);
+        // // Reverse sort
+        // Collections.reverse(intValues);
+        // // Since we can change values of List
+        // // It is mutable
+        // Collections.shuffle(intValues);
+        // printValues(intValues);
     }
 
-    static <T> void printValues(List<T> values) {
-        for (T element : values) {
+    // Generic method to print elements of any list type
+    static <String> void printValues(List<String> values) {
+        for (String element : values) {
             // Experimental code
             if (element instanceof String) {
                 System.out.print(element);

@@ -1,14 +1,30 @@
+/**
+ * * This file is part of the Java Programming Lecture project
+ * *
+ * * This Java snippet illustrates:
+ * * - To illustrate the capabilities of LinkedList<String>
+ * * - Insertion at various positions
+ * * - Removal by index and value
+ * * - Sorting and searching
+ * * - Size tracking and traversal
+ * *
+ * @package III_Unit.Collection_Generic.ListInterface;
+ * @author Dr. S. Sampath Kumar
+ * @since 03-09-2025
+ * @version 2.0
+ */
+
 package III_Unit.Collection_Generic.ListInterface;
 
 import java.util.*;
 
-public class LinkedListEx {
+public class D_LinkedListEx {
     public static void main(String args[]) {
         // creating a LinkedList
         LinkedList<String> list = new LinkedList<String>();
 
         // displaying the initial size
-        System.out.println("Size at the beginning " + list.size());
+        System.out.println("Size at the beginning: " + list.size());
 
         // add elements
         list.add("Java");
@@ -22,7 +38,7 @@ public class LinkedListEx {
         list.add(2, "Python");
 
         // displaying the LinkedList
-        System.out.println("Modified Linked List " + list);
+        System.out.println("Modified Linked List: " + list);
 
         // displaying the size
         // System.out.println("Size after addition " + list.size());
@@ -31,7 +47,7 @@ public class LinkedListEx {
         list.remove(5);
         System.out.println(list);
         // Removing elements from the LinkedList based on Object "Value"
-        list.remove("C#");
+        list.remove("C++");
         System.out.println(list);
 
         // Sorting the LinkedList
@@ -40,12 +56,12 @@ public class LinkedListEx {
         System.out.println(list.contains("C++"));
 
         // Searching the LinkedList for an element
-        System.out.println(list.indexOf("Python"));
+        System.out.println("Index of Python: " + list.indexOf("Python"));
 
         // display the new LinkedList
-        System.out.println("New Linked List " + list);
+        System.out.println("New Linked List: " + list);
 
         // display the new size
-        System.out.println("Size after removal " + list.size());
+        System.out.println("Size after removal: " + list.size());
     }
 }
