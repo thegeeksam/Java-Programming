@@ -43,30 +43,30 @@ public class GenericsExample {
         values.add(1,", "); 
         printValues(values);
 
-        // List<Integer> intValues = new ArrayList<>();
-        // intValues.add(10);
-        // intValues.add(20);
-        // intValues.add(14);
-        // intValues.add(7);
-        // intValues.add(1,30);
-        // // call Sort from Collections class to sort content of List
+        List<Integer> intValues = new ArrayList<>();
+        intValues.add(10);
+        intValues.add(20);
+        intValues.add(14);
+        intValues.add(7);
+        intValues.add(1,30);
+        // call Sort from Collections class to sort content of List
         // Collections.sort(intValues);
-        // // Reverse sort
+        // Reverse sort
         // Collections.reverse(intValues);
-        // // Since we can change values of List
-        // // It is mutable
+        // Since we can change values of List
+        // It is mutable
         // Collections.shuffle(intValues);
-        // printValues(intValues);
+        printValues(intValues);
     }
 
     // Generic method to print elements of any list type
-    static <String> void printValues(List<String> values) {
-        for (String element : values) {
+    static <T> void printValues(List<T> values) {
+        for (T element : values) {
             // Experimental code
             if (element instanceof String) {
                 System.out.print(element);
             } else if (element instanceof Integer) {
-                System.out.print(element + " ");
+                System.out.print(element);// + " ");
             }
         }
         System.out.println();

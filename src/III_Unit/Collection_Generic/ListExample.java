@@ -36,7 +36,6 @@ public class ListExample {
             System.out.println(values.get(i));
         }
 
-        Iterator it = values.iterator();
         // iterating through the collection using "for each"
         for (Object obj : values) {
             System.out.println(obj);

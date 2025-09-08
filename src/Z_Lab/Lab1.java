@@ -42,6 +42,7 @@ package Z_Lab;
 import java.util.*;
 
 class UserDetails {
+    
     String SName, SCity;
     int iAge;
     

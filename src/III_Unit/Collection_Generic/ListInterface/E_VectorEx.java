@@ -1,11 +1,14 @@
 /**
  * * This file is part of the Java Programming Lecture project
  * *
+ * * Vector is a legacy class from Java 1.0.
  * * Vectors in Java are used for creating dynamic array.
- * * Vectors are synchronized, which implies that at a time,
- * * only one thread is able to access the code while other threads
- * * have to wait. Due to this, Vectors are slower in performance
- * * as they acquire a lock on a thread.
+ * * It’s a synchronized, dynamic array that grows as needed.
+ * * Supports random access and insertion at any index.
+ * * Thread-safe, but slower due to synchronization overhead.
+ * *
+ * * Synchronized: at a time, only one thread is able to access the code
+ * * while other threads have to wait.
  * *
  * * This Java snippet illustrates:
  * * - How to create and manipulate a Vector<Integer>

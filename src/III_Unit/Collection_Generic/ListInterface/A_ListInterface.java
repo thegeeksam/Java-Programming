@@ -4,6 +4,19 @@
  * * This Java snippet illustrates:
  * * - Create list Using the List interface (Programming to the interface)
  * *
+ * * >> Benefits:
+ * * - Flexibility: You can easily switch to another implementation like 
+ * *   LinkedList or Vector without changing the rest of your code.
+ * * - Polymorphism: You write code that works with any List implementation.
+ * * - Encapsulation: You hide implementation details, exposing only the 
+ * *   behavior defined by the List interface.
+ * * - Maintainability: Easier to refactor and test, especially in large systems or APIs.
+ * *
+ * * >> Limitation:
+ * * - You can only access methods defined in the List interface, not 
+ * *   implementation-specific methods (e.g., ensureCapacity() from 
+ * *   ArrayList).
+ * *
  * @package III_Unit.Collection_Generic.ListInterface;
  * @author Dr. S. Sampath Kumar
  * @since 03-09-2025
