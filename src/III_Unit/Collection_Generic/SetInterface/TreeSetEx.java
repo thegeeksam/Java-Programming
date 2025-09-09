@@ -1,15 +1,27 @@
+/**
+ * * This file is part of the Java Programming Lecture project
+ * *
+ * * This Java snippet illustrates:
+ * * - 
+ * * 
+ * * >> TreeSet
+ * * - The TreeSet class implements the Set Interface.
+ * * - It uses a tree to store the elements.
+ * * - TreeSet contains unique elements.
+ * * - The access and retrieval time is very fast.
+ * * - TreeSet is non-synchronized means multiple threads at a time can access the code. 
+ * * - It is faster than LinkedHashSet but slower TreeSet.
+ * * - null value not allowed, throw NullPointerException if inserted
+ * *
+ * @package III_Unit.Collection_Generic.SetInterface;
+ * @author Dr. S. Sampath Kumar
+ * @since 08-09-2025
+ * @version 2.0
+ */
 package III_Unit.Collection_Generic.SetInterface;
 
 import java.util.Set;
 import java.util.TreeSet;
-
-// The TreeSet class implements the Set Interface.
-// It uses a tree to store the elements.
-// TreeSet contains unique elements.
-// The access and retrieval time is very fast.
-// TreeSet is non-synchronized means multiple threads at a time can access the code. 
-// It is faster than LinkedHashSet but slower TreeSet.
-// null value not allowed, throw NullPointerException if inserted
 public class TreeSetEx {
     public static void main(String[] args) {
         // Creating a TreeSet
@@ -37,10 +49,13 @@ public class TreeSetEx {
         
         // Elements get stored in Ascending order
         System.out.println(ts);
-        // Implementation for reversed() is available in TreeSet not in Set
+        // Implementation for reversed() is available in
+        // TreeSet not in Set
         System.out.println(ts.reversed());
+        // System.out.println(ts.descendingSet());
         ts.remove("Kerala");
         System.out.println(ts);
+        // Will Generate Error - Guess why?
         ts.addFirst("Arunachal Pradesh");
         ts.addLast("Maharashtra");
         System.out.println(ts);

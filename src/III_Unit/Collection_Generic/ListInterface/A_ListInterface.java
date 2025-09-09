@@ -25,6 +25,7 @@
 
 package III_Unit.Collection_Generic.ListInterface;
 
+import java.net.SocketImpl;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -73,14 +74,16 @@ public class A_ListInterface {
         stack.push(20);
         stack.push(30);
         // stack.push(1,40);
+        stack.add(1,40);
 
         // Peek at the top element without removing
+        System.out.println(stack);
         System.out.println("Top element: " + stack.peek()); // 30
 
         // Pop elements from the stack (removes from the top)
-        System.out.println("Popped: " + stack.pop()); // 30
-        System.out.println("Popped: " + stack.pop()); // 20
-        System.out.println("Popped: " + stack.pop()); // 10
+        // System.out.println("Popped: " + stack.pop()); // 30
+        // System.out.println("Popped: " + stack.pop()); // 20
+        // System.out.println("Popped: " + stack.pop()); // 10
 
     }
 }

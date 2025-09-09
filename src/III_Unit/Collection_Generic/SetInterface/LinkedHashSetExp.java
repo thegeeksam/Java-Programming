@@ -1,12 +1,29 @@
+/**
+ * * This file is part of the Java Programming Lecture project
+ * *
+ * * This Java snippet illustrates:
+ * * - To illustrate the capabilities of LinkedHashSet<String>
+ * * - Insertion of elements
+ * * - Removal of elements
+ * *
+ * * >> LinkedHashSet:
+ * * - Implements the Set interface: Stores unique elements only (no duplicates).
+ * * - Maintains insertion order: Unlike HashSet, it remembers the order in which 
+ *     elements were added.
+ * * - Backed by a hash table + linked list: Combines fast access with 
+ *     predictable iteration.
+ * * - Allows one null value.
+ * * - Non-synchronized: Not thread-safe unless externally synchronized.
+ * * - It is slower than HashSet and TreeSet.
+ * *
+ * @package III_Unit.Collection_Generic.SetInterface;
+ * @author Dr. S. Sampath Kumar
+ * @since 08-09-2025
+ * @version 2.0
+ */
 package III_Unit.Collection_Generic.SetInterface;
 
 import java.util.*;
-
-// It maintains a linked list of entries in the set and 
-// hence maintains the order in which they were inserted.
-// LinkedHashSet is non-synchronized means multiple threads at a time can access the code. 
-// It is slower than HashSet and TreeSet.
-// Allows only one null value.
 
 public class LinkedHashSetExp {
     public static void main(String args[]) {
@@ -19,9 +36,11 @@ public class LinkedHashSetExp {
         // add elements
         str.add("Hello");
         str.add("II");
-        str.add("CSE C");
+        str.add("CSE B");
         str.add("Students");
         str.add("Students");
+        str.add(null);
+        str.add(null);
 
         // displaying the LinkedHashSet
         System.out.println(str);

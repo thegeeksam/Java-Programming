@@ -1,13 +1,31 @@
+/**
+ * * This file is part of the Java Programming Lecture project
+ * *
+ * * This Java snippet illustrates:
+ * * - Hashing Mechanism
+ * * - Key-Value Pair Management
+ * * - Handling Nulls
+ * * 
+ * * >> HashMap:
+ * * - The HashMap class implements the Map interface.
+ * * - It uses a hash table to store the map.
+ * * - HashMap contains values based on the key.
+ * * - It uses a hash table for storing key-value pairs.
+ * * - To access a value in hash map, we must know its key.
+ * * - Doesn't maintain insertion order.
+ * * - It may have one null key and multiple null values.
+ * * - Is not synchronized (not thread-safe by default)
+ * * - It is the best approach for search operations.
+ * @package II_Unit.Collection_Generic.MapInterface;
+ * @author Dr. S. Sampath Kumar
+ * @since 08-09-2025
+ * @version 2.0
+ */
 package III_Unit.Collection_Generic.MapInterface;
 
 // import java.util.Map;
 import java.util.HashMap;
 
-// It uses a hash table for storing key-value pairs.
-// If we want to access a value in hash map,
-// we must know its key.
-// doesn't maintain insertion order.
-// It may have one null key and multiple null values.
 public class HashMapEx {
     public static void main(String args[]) {
         // Creating a HashMap
