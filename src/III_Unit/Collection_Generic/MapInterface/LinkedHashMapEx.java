@@ -29,8 +29,6 @@ package III_Unit.Collection_Generic.MapInterface;
 import java.util.LinkedHashMap;
 // import java.util.Map;
 
-// allows one null key and multiple null values.
-// maintains order in which key-value pairs are inserted.
 public class LinkedHashMapEx {
     public static void main(String[] args) {
 

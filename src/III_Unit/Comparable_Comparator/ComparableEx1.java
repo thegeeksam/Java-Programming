@@ -1,3 +1,17 @@
+/**
+ * * This file is part of the Java Programming Lecture project
+ * *
+ * * This Java snippet illustrates:
+ * * - Implements the Set interface: stores unique elements only
+ * * - Maintains insertion order: unlike HashSet, it remembers the order of insertion
+ * * - Allows one null value
+ * * 
+ * @package II_Unit.Collection_Generic.MapInterface;
+ * @author Dr. S. Sampath Kumar
+ * @since 08-09-2025
+ * @version 2.0
+ */
+
 package III_Unit.Comparable_Comparator;
 
 import java.util.ArrayList;
@@ -27,7 +41,7 @@ class Student {
     }
 }
 
-public class ComparableEx {
+public class ComparableEx1 {
     public static void main(String[] args) {
         List<Student> studs = new ArrayList<>();
 
@@ -38,10 +52,10 @@ public class ComparableEx {
         };
         // Comparator<Student> com = (i, j) -> i.age > j.age ? 1 : -1;
 
-        studs.add(new Student(19, "Rahul"));
-        studs.add(new Student(20, "Theja"));
-        studs.add(new Student(18, "Raj"));
-        studs.add(new Student(17, "Kumar"));
+        studs.add(new Student(19, "Harish"));
+        studs.add(new Student(20, "Asif"));
+        studs.add(new Student(18, "Abdul Kareem"));
+        studs.add(new Student(17, "Manoj Kumar"));
 
         // for (Student s : studs)
         // System.out.println(s);

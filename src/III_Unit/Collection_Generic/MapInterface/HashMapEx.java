@@ -36,15 +36,15 @@ public class HashMapEx {
         hm.put(4, 4.6);
         hm.put(15, 5.5);
         hm.put(32, 3.7);
-        hm.put(2, null);
+        hm.put(2, null); // null value
         hm.put(null, null); // null key and null value
         // hm.put(null,0);
-        hm.put(5, null);
+        hm.put(5, null); // null value
         // hm.put(2, 21.8);
         System.out.println(hm);
 
         // Finding the value for a key using get()
-        System.out.println("The Value for 1 is " + hm.get(1));
+        System.out.println("The Value for 1 is: " + hm.get(1));
 
         // Changing the value for an existing key using put()
         hm.put(1, 1.5);

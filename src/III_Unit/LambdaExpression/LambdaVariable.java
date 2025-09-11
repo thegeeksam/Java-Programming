@@ -1,6 +1,6 @@
 package III_Unit.LambdaExpression;
-//------> Lambda Example 6: Accessing Variable <------
 
+//------> Lambda Example 6: Accessing Variable <------
 interface MyInter {
     public String greet(String s);
 }
@@ -12,9 +12,7 @@ public class LambdaVariable {
         // its value does not change after it is allocated.
         String s1 = "Hello";
         // final String s1 = "Hello";
-        MyInter g1 = (str) -> {
-            return s1 + ", " + str;
-        };
+        MyInter g1 = (str) -> s1 + ", " + str;
 
         System.out.println(g1.greet("Agilan"));
 
