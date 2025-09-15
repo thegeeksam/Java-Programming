@@ -2,8 +2,6 @@ package III_Unit.StreamAPI;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Stream;
-import java.util.function.Consumer;
 
 public class WoStream {
     public static void main(String[] args) {
@@ -33,6 +31,5 @@ public class WoStream {
 
         // Printing Values of List: Method 3 - Using Lambda Expression
         // nums.forEach(n -> System.out.println(n));
-
     }
 }

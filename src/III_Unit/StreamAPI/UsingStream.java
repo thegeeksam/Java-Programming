@@ -1,3 +1,16 @@
+/**
+ * * This file is part of the Java Programming Lecture project.
+ * *
+ * * This Java snippet illustrates:
+ * * - Introducing object streams (vs primitive streams)
+ * * - Demonstrating filter, map, and collect
+ * * - Reinforcing immutability: the original list remains unchanged
+ * *
+ * @package III_Unit.StreamAPI;
+ * @author Dr. S. Sampath Kumar
+ * @since 11-09-2025
+ * @version 2.0
+ */
 package III_Unit.StreamAPI;
 
 import java.util.ArrayList;
@@ -15,7 +28,6 @@ class Product {
         this.price = price;
     }
 }
-
 public class UsingStream {
     public static void main(String[] args) {
         List<Product> productsList = new ArrayList<Product>();
@@ -26,9 +38,10 @@ public class UsingStream {
         productsList.add(new Product(4, "Sony Laptop", 68000));
         productsList.add(new Product(5, "Apple Laptop", 110000));
 
-        List<Float> pList = productsList.stream()
+        List<String> pList = productsList.stream()
                 .filter(p -> p.price > 30000) // filtering data
-                .map(p -> p.price) // fetching price
+                // .map(p -> p.price) // fetching price
+                .map(p -> "\nPID: "+ p.id + ", Name: " + p.name + ", Price: " + p.price) // fetching price
                 .collect(Collectors.toList()); // collecting as list
         System.out.println(pList);
     }

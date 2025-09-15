@@ -47,7 +47,5 @@ public class WithoutStream {
         // System.out.println(productPriceList);
         // print 4th Time
         // System.out.println(productPriceList);
-
     }
-
 }
