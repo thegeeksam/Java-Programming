@@ -8,14 +8,16 @@ import java.util.Scanner;
 
 /*
  * throws keyword is used to declare an exception. 
- * It gives an information to the programmer that there may occur an exception, 
- * so it is better for the programmer to provide the exception handling code,
+ * It gives an information to the programmer that there 
+ * may occur an exception, so it is better for the programmer
+ * to provide the exception handling code,
  * so that normal flow can be maintained.
  * 
  * Exception Handling is mainly used to handle the checked exceptions. 
  * 
- * If there occurs any unchecked exception such as IndexOutOfBoundException,
- * it is programmers fault that he is not performing check up before the code being used.
+ * If there occurs any unchecked exception such as 
+ * "IndexOutOfBoundException",it is programmers fault that 
+ * he is not performing check up before the code being used.
  */
 
 public class ThrowsKeyword {

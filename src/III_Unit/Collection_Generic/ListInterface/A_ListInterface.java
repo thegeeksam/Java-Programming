@@ -36,9 +36,11 @@ public class A_ListInterface {
     public static void main(String[] args) {
         // Creating the list of Integer references
         List<Integer> list1 = new ArrayList<Integer>();
+        int a = 10;
         list1.add(1);
         list1.add(2);
         list1.add(1,3);
+        list1.add(a); // Autoboxing
         System.out.println("ArrayList: " + list1);
 
         // Creating the list of Integer reference using LinkedList

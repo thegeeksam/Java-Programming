@@ -1,6 +1,6 @@
 package IV_Unit.ExceptionHandling;
 
-public class UncheckedException {
+public class B_UncheckedException {
     public static void main(String args[]) {
         // arithmeticException
         // int a = 10, b = 0;
