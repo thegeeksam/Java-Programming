@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOError;
 import java.util.Scanner;
 
 /*
@@ -21,7 +22,7 @@ import java.util.Scanner;
  */
 
 public class ThrowsKeyword {
-    static void Age() throws FileNotFoundException {
+    static void Age() throws FileNotFoundException,IllegalAccessException, StackOverflowError {
         // reading a file which is not available
         FileReader file = new FileReader("somefile.txt");
     }
